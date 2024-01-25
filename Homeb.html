@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        h1{
+           /* color:palegreen;*/
+          /* color:#bcd420;*/
+
+          color:rgb(25 94 8);
+          
+          background-color:#808080;
+          
+        /*  float:right; */ 
+
+        text-align:center;
+
+        border-left: 1px solid gray;
+
+        }
+
+        div:first-of-type {
+            /*border-left: 1px solid #ff0000;*/
+            /* border-top: 1px solid #ff0000;*/
+            /*border-right: 1px solid #ff0000;*/
+            /*border-bottom: 1px solid #ff0000;*/
+
+            border:2px solid gray;
+            border-radius:5px;
+
+            margin-right:100px;
+
+            
+        }
+
+        #div2 {
+            width:50%;
+            height:200px;
+            border:2px double #ff0000;
+            border-radius:5px;
+
+            margin-top:25px;
+
+        }
+
+        button {
+            /* margin-top:20px;
+            margin-left:20px;*/
+            margin: 20px;
+            padding: 5px;
+
+        }
+
+
+        #div3 {
+            width: 50%;
+            height: 250px;
+            border: 2px double #ff6a00;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        #mainDiv div{
+            width:100px;
+            height:100px;
+            background-color:palegreen;
+            margin:25px;
+            display:inline-block;
+            padding:10px;
+        }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Heading</h1>
+
+    <hr />
+    <!--<input type="button" value="Click Me 1" style="visibility:hidden" />--> 
+    <input type="button" value="Click Me 1" style="display:inline-block" /> |
+    <input type="button" value="Click Me 2" />
+
+    <hr />
+    <div id="mainDiv">
+        <div style="opacity:1;">
+            Div 1 Content
+        </div>
+        <div style="opacity:0.5;">
+            Div 11 Content
+        </div>
+        <div style="opacity:0;">
+            Div 111 Content
+        </div>
+
+    </div>
+
+    <hr />
+
+    <div>
+        Div Content
+
+    </div>
+
+    <hr />
+
+    <div id="div2">
+        Div 2 Content
+        <br />
+        <button>Click Me</button>
+
+    </div>
+
+    <div id="div3">
+        Div 3 Content
+
+    </div>
+
+</body>
+</html>
