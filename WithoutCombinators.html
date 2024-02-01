@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+
+        
+        /* descending Selector */
+       /* #para{
+            color:darkred;
+        }*/
+
+
+
+        /*Child Selector*/
+        #para > p{
+            color:blue;
+        }
+
+
+       /* General Sibling Selector */
+       #para ~ p{
+           color:green;
+       }
+
+
+
+        /* Adjecent Sibling Selector */
+        #para + p{
+            color:aqua;
+        }
+
+
+        #para div > p{
+            background-color:coral;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div id="para">
+        <p>para 1</p>
+        <p>para 2</p>
+        <p>para 3</p>
+        <p>para 4</p>
+        <p>para 5</p>
+
+        <div>
+
+            <p>para 8</p>
+            <p>para 9</p>
+
+        </div>
+    </div>
+
+    <p>para 6</p>
+    <p>para 7</p>
+
+
+</body>
+</html>
